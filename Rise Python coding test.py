@@ -44,11 +44,11 @@ threshold = 4
 names = ['dog' , 'cat', 'mouse', 'horse', 'cow', 'elephant']
 
 #  loop through list of strings, check length and append to relevant list
-for i in np.arange(1,len(names),1):    
+for i in np.arange(0,len(names),1):    
   if len(names[i]) > threshold:
     long_names.append(names[i])
   else:
     short_names.append(names[i])
 
-print("length of long_names = ", len(long_names))
+print("length of long names = ", len(long_names))
 print("length of short names = ", len(short_names))
